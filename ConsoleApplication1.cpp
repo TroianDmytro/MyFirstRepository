@@ -9,6 +9,14 @@
 
 using namespace std;
 
+template <typename T>
+T sum(T value_1, T value_2)
+{
+	return value_1 + value_2;
+}
+
+
+
 int main()
 {
 	setlocale(LC_ALL, "ukr");
