@@ -14,8 +14,23 @@ T sum(T value_1, T value_2)
 {
 	return value_1 + value_2;
 }
+template <typename T>
+T divide(T value_1, T value_2)
+{
+	return value_1 / value_2;
+}
 
+template <typename T>
+T subtract(T value_1, T value_2)
+{
+	return value_1 - value_2;
+}
 
+template <typename T>
+T multipli(T value_1, T value_2)
+{
+	return value_1 * value_2;
+}
 
 int main()
 {
