@@ -32,12 +32,16 @@ T multipli(T value_1, T value_2)
 	return value_1 * value_2;
 }
 
-
 int main()
 {
 	setlocale(LC_ALL, "ukr");
 
 	cout << "line 3" << endl;
+	auto n = 4;
+	
+	cout << divide(multipli(subtract(sum(n, 4), 1), 3), 2) << endl;
+	
+
 	////////////////////////////////////////////////////////  Task #1  /////////////////////////////////////////
 
 
